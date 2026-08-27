@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamCareer — Find the career that funds your life</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- LANDING PAGE -->
+    <section id="landing">
+        <p class="eyebrow">Career Intelligence</p>
+        <h1 class="hero-title">Find the career that funds <em>your</em> life</h1>
+        <p class="hero-sub">Most people choose a career and then build a life around it. We do the opposite — start with the life you want, and work backwards to the career that gets you there.</p>
+        <div class="stat-row">
+            <div class="stat">
+                <div class="stat-number">15</div>
+                <div class="stat-label">Questions</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">4 min</div>
+                <div class="stat-label">To complete</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Data points analyzed</div>
+            </div>
+        </div>
+        <button class="btn-primary" onclick="startQuiz()">Find my career path</button>
+        <p class="disclaimer">Based on real US market data — BLS, Glassdoor, and industry reports</p>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="question-count" id="question-count"></p>
+        <h2 class="question-text" id="question-text"></h2>
+        <div class="options-grid" id="options-grid"></div>
+    </section>
+
+    <!-- LOADING -->
+    <section id="loading">
+        <div class="loading-ring"></div>
+        <h2 class="loading-title">Analyzing your profile</h2>
+        <p class="loading-sub">Cross-referencing your answers with salary data, career trajectories, and market demand.</p>
+    </section>
+
+    <!-- RESULT -->
+    <section id="result">
+        <span class="profile-tag" id="profile-tag"></span>
+        <h2 class="result-title" id="result-title"></h2>
+        <p class="result-hook" id="result-hook"></p>
+        <div class="preview-card" id="preview-card"></div>
+        <div id="paywall-block"></div>
+        <div id="full-result" style="display:none"></div>
+    </section>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
