@@ -2,7 +2,7 @@
 
 const questions = [
     {
-        text: "When you imagine yourself 10 years from now, what feeling do you want to wake up with?",
+        text: "In 10 years, what feeling do you want waking up every morning to give you?",
         options: [
             { text: "Excited about the day ahead", scores: { builder: 2, leader: 1 } },
             { text: "Calm and secure", scores: { analyzer: 2, helper: 1 } },
@@ -11,7 +11,7 @@ const questions = [
         ]
     },
     {
-        text: "What would make you feel like your career was a success?",
+        text: "What would make you feel your career is truly successful?",
         options: [
             { text: "Making enough to never worry about money", scores: { analyzer: 2, leader: 2 } },
             { text: "Doing work that actually matters", scores: { helper: 3 } },
@@ -20,7 +20,7 @@ const questions = [
         ]
     },
     {
-        text: "If money wasn't a factor for the next 5 years, what would you spend your time doing?",
+        text: "If money didn't matter for the next five years, how would you spend your time?",
         options: [
             { text: "Building or creating something", scores: { builder: 3 } },
             { text: "Helping or teaching people", scores: { helper: 3 } },
@@ -29,7 +29,7 @@ const questions = [
         ]
     },
     {
-        text: "When you do your best work, what does that environment look like?",
+        text: "What does the environment where you do your best work look like?",
         options: [
             { text: "Alone, deep in focus, no interruptions", scores: { builder: 2, analyzer: 2 } },
             { text: "Collaborating with a team toward something bigger", scores: { leader: 2, helper: 1 } },
@@ -38,7 +38,7 @@ const questions = [
         ]
     },
     {
-        text: "How do you actually think about money?",
+        text: "How do you really think about money?",
         options: [
             { text: "It's the scoreboard — I want a lot of it", scores: { leader: 2, analyzer: 2 } },
             { text: "It's security — I just never want to worry about it", scores: { analyzer: 2, helper: 1 } },
@@ -47,7 +47,7 @@ const questions = [
         ]
     },
     {
-        text: "At the end of your career, what do you want to have left behind?",
+        text: "At the end of your career, what legacy do you want to leave?",
         options: [
             { text: "Something I built that still exists", scores: { builder: 3 } },
             { text: "People whose lives I changed", scores: { helper: 3 } },
@@ -56,7 +56,7 @@ const questions = [
         ]
     },
     {
-        text: "How do you feel about uncertainty?",
+        text: "How do you handle uncertainty?",
         options: [
             { text: "I hate it — I need to know what's coming", scores: { analyzer: 2, helper: 1 } },
             { text: "I tolerate it if the reward is worth it", scores: { builder: 2, leader: 1 } },
@@ -65,7 +65,7 @@ const questions = [
         ]
     },
     {
-        text: "When you're honest with yourself, what's the biggest thing holding you back right now?",
+        text: "What's the single biggest thing holding you back right now, if you're honest?",
         options: [
             { text: "I don't know what I actually want", scores: {} },
             { text: "I know what I want but don't know how to get there", scores: { analyzer: 1 } },
@@ -74,7 +74,7 @@ const questions = [
         ]
     },
     {
-        text: "How much time and energy can you realistically invest in changing your path right now?",
+        text: "How much time can you realistically invest in changing your career path right now?",
         options: [
             { text: "A few hours a week — life is busy", scores: { analyzer: 1, helper: 1 } },
             { text: "I can go all in if I know it's worth it", scores: { builder: 2, leader: 2 } },
@@ -83,7 +83,7 @@ const questions = [
         ]
     },
     {
-        text: "Have you ever tried to change your path before?",
+        text: "Have you tried to change your career path before?",
         options: [
             { text: "Yes, and I gave up — it got too hard", scores: { helper: 1 } },
             { text: "Yes, but I went in the wrong direction", scores: { analyzer: 1 } },
@@ -92,7 +92,7 @@ const questions = [
         ]
     },
     {
-        text: "What does your ideal week actually look like?",
+        text: "What does your ideal week look like?",
         options: [
             { text: "Working remotely, anywhere in the world", scores: { builder: 2, analyzer: 1 } },
             { text: "In an office, surrounded by people and energy", scores: { leader: 2, helper: 1 } },
@@ -101,7 +101,7 @@ const questions = [
         ]
     },
     {
-        text: "What's the one thing about your current path that keeps you up at night?",
+        text: "What's the one thing about your current path that keeps you awake at night?",
         options: [
             { text: "That I chose wrong and it's too late", scores: { helper: 1 } },
             { text: "That I'm wasting time", scores: { builder: 1, leader: 1 } },
@@ -110,7 +110,7 @@ const questions = [
         ]
     },
     {
-        text: "How much of your current life looks like the life you imagined for yourself?",
+        text: "How much of your current life matches the life you once imagined for yourself?",
         options: [
             { text: "Almost none", scores: { leader: 1 } },
             { text: "Some parts, but not the important ones", scores: { builder: 1 } },
@@ -119,7 +119,7 @@ const questions = [
         ]
     },
     {
-        text: "When you imagine a Monday you'd actually look forward to, what does that day look like?",
+        text: "Imagine a Monday you actually look forward to—what does that day look like?",
         options: [
             { text: "Shipping something I built or designed", scores: { builder: 2 } },
             { text: "Helping someone solve a real problem", scores: { helper: 2 } },
@@ -128,7 +128,7 @@ const questions = [
         ]
     },
     {
-        text: "If you woke up tomorrow in the career that was truly right for you, what's the first thing you'd feel?",
+        text: "If you woke up tomorrow in the career that's truly right for you, what would you feel first?",
         options: [
             { text: "Relief — finally", scores: { helper: 1, analyzer: 1 } },
             { text: "Excitement — like I can't wait to start", scores: { builder: 2, leader: 1 } },
