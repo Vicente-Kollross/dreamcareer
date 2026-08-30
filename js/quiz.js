@@ -489,7 +489,7 @@ function showResult() {
                 <div class="paywall-item">The insider secret most people learn too late</div>
                 <div class="paywall-item">Best universities and programs in the US</div>
             </div>
-            <button class="btn-primary" onclick="window.open('https://vicentequest2.gumroad.com/l/dreamcareer', '_blank')">Unlock my report — $7</button>
+            <button class="btn-primary" onclick="window.open('https://mydreamcareer.gumroad.com/l/dreamcareer', '_blank')">Unlock my report — $7</button>
             <p class="paywall-price">One-time payment · Instant access · Based on real US market data</p>
         </div>
     `
