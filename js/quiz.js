@@ -1,5 +1,3 @@
-// ── DADOS ──────────────────────────────────────────────
-
 const questions = [
     {
         text: "In 10 years, what feeling do you want waking up every morning to give you?",
@@ -392,7 +390,6 @@ const results = {
     }
 }
 
-// ── ESTADO ─────────────────────────────────────────────
 
 let currentQuestion = 0
 let builder = 0
@@ -400,7 +397,6 @@ let helper = 0
 let analyzer = 0
 let leader = 0
 
-// ── FUNÇÕES DE NAVEGAÇÃO ────────────────────────────────
 
 function show(id) {
     document.querySelectorAll('section').forEach(s => s.style.display = 'none')
@@ -413,7 +409,6 @@ function startQuiz() {
     showQuestion()
 }
 
-// ── QUIZ ────────────────────────────────────────────────
 
 function showQuestion() {
     const q = questions[currentQuestion]
@@ -450,14 +445,12 @@ function selectOption(scores) {
     }
 }
 
-// ── LOADING ─────────────────────────────────────────────
 
 function showLoading() {
     show('loading')
     setTimeout(showResult, 3000)
 }
 
-// ── RESULTADO ───────────────────────────────────────────
 
 function showResult() {
     let topProfile = 'builder'
